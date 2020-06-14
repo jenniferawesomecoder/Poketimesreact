@@ -2,9 +2,10 @@ import React from 'react'
 import { Link, withRouter } from 'react-router-dom'
 
  const Navbar = (props) => {
-  setTimeout( () => {
-    props.history.push('/about')
-}, 2000); 
+   
+//   setTimeout( () => {
+//     props.history.push('/about')
+// }, 2000); 
 
     return (
     
