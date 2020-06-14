@@ -11,7 +11,7 @@ import { Link, withRouter } from 'react-router-dom'
     
       <nav className="nav-wrapper red darken-3">
           <div className="container">
-            <a className="brand-logo">Poke Times</a>
+            <h5 className="brand-logo">Poke Times</h5>
               <ul className="right">
 
                   <li><Link to="/">Home</Link></li>
