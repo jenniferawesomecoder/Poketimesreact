@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import axios from 'axios'
-
+import Pokeball from '../pokeball.png'
 
 export default class Post extends Component {
 
@@ -25,6 +25,7 @@ export default class Post extends Component {
 
         const post = this.state.post ? (
             <div className="post">
+              <img src={Pokeball} alt="A pokeball"></img>
                 <h4 className="center">{this.state.post.title}</h4>
                 <p>{this.state.post.body}</p>
             </div>
