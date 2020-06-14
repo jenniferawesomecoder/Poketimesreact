@@ -1,4 +1,5 @@
 import React from 'react'
+import Rainbow from '../hoc/Rainbow'
 
  const About = () => {
     return (
@@ -10,4 +11,4 @@ Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots 
         </div>
     )
 }
-export default About
+export default Rainbow(About)
