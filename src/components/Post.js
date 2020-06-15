@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 // import axios from 'axios'
 import Pokeball from '../pokeball.png'
 import { connect } from 'react-redux'
+import { deletePost } from '../actions/postActions'
 
  class Post extends Component {
 
@@ -67,7 +68,7 @@ return {
 
 const mapDispatchToProps = (dispatch) => {
  return {
-     deletePost: (id) => { dispatch({type: 'DELETE_POST, id: id'})}
+     deletePost: (id) => { dispatch(deletePost(id))}
  }
 
 }
